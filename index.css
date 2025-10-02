@@ -1,6 +1,48 @@
-.Heading {
-    background-color: lightcoral;
-    color: whitesmoke;
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+body {
+     background: linear-gradient(to right,blue,rgb(122, 122, 247),pink);
+}
+
+
+.navbar {
+    background-color: aquamarine;
+    padding: 20px 50px;            
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    justify-content: left;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+
+.nav-links li a {
+    color: blue;
+    transition: color 0.3s;
+}
+
+
+.nav-links li a:hover {
+    color: red;
+}
+
