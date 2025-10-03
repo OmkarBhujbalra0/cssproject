@@ -46,3 +46,23 @@ body {
     color: red;
 }
 
+.product-card {
+    border: 2px solid white;
+    box-shadow: 2px 3px 10px rgba(red, green, blue, alpha);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px
+}
+
+.product-details {
+    border: 2px solid black;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+.product-img {
+    border: 2px solid black;
+    height: 200px;
+    background-color: lightgrey;
+}
